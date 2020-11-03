@@ -9,7 +9,7 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 export default function Post({ 
     postData 
 }: {
-    postDat: {
+    postData: {
         title: string
         date: string
         contentHtml: string
